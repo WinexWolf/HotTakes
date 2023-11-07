@@ -1,0 +1,128 @@
+
+.section1 {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+
+
+.sub-section1 {
+  width: 40%;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+ justify-content: start;
+ display: flex;
+ flex-direction: column;
+
+}
+
+.sub-section2 {
+  width: 40%;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+ justify-content: center;
+ display: flex;
+ flex-direction: row;
+ gap:50%;
+
+}
+
+h1{
+    font-size:61px;
+    font-style: bold;
+    text-align: left;
+    width: 75%;
+}
+
+p{
+    font-size:25px;
+    text-align: left;
+    width: 75%;
+}
+
+.hottakes{
+    color: rgb(255,66,145);
+}
+
+.screen{
+  width: 316.8px; /* Set the width of the mobile screen */
+  height: 684px; /* Set the height of the mobile screen */
+  border: 10px solid rgb(255,66,145); /* Add a border to simulate the screen's frame */
+  border-radius: 50px; /* Add rounded corners to the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+  background-color: #fff; /* Set the background color of the screen */
+  overflow: hidden; /* Hide content that exceeds the container */
+  margin: 20px; /* Add some margin for spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.note{
+    width: 800px;
+    font-size: 49px;
+    font-weight: 700;
+    height: 182px;
+}
+
+.feature-box{
+ width: 240px;
+ height: 240px;
+ border-radius: 40px;
+ display: flex;
+ flex-direction: column;
+ background-color: #5A5A5A;
+}
+
+.feature-section {
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 3vh 0 10vh 0;
+  gap:60px; 
+}
+
+.button-req {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 100px;
+  justify-content: center;
+  width: 222px;
+  height: 68px;
+  background-color: #FF4291;
+  font-size: 16px;
+  font-style: bold;
+}
+
+.section3 {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
