@@ -1,22 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
+import "../css/input.css";
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <InputComponent
-          label="Name:"
-          type="text"
-          placeholder="Enter your name"
-        />
-        <InputComponent
-          label="Email:"
-          type="email"
-          placeholder="Enter your email"
-        />
-      </div>
-    );
-  }
+function Input({ label, type, placeholder }) {
+  const [value, setValue] = useState("");
+
+  const handleChange = (e) => {
+    setValue(e.target.value);
+  };
+
+  return (
+    <div className="input-container">
+      <label>{label}</label>
+      <input
+        type={type}
+        value={value}
+        onChange={handleChange}
+        placeholder={placeholder}
+      />
+    </div>
+  );
 }
 
-export default App;
+export default Input;

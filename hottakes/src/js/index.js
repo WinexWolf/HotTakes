@@ -5,6 +5,7 @@ import appstore from "../appstore.png";
 import Scroller from "./scroller";
 import PlayButton from "./playbuttons";
 import arrow from '../arrow.png';
+import Input from "./input";
 
 function IndexPage() {
   return (
@@ -114,6 +115,7 @@ function IndexPage() {
           Join the waitlist for early access.
           <br></br>
           We'll reach out soon!
+          <Input />
           <div className="feature-section">
             <div className="button-req">Request access</div>
           </div>
