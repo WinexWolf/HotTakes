@@ -35,6 +35,13 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: Chakra Petch;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 58.8px */
+  text-decoration-line: underline;
 }
 .vibe-pic {
   display: flex;
@@ -60,7 +67,7 @@
   border-radius: 40px;
   background: rgba(90, 90, 90, 0.4);
   backdrop-filter: blur(20px);
-  transform: translate(50%, 70%);
+  transform: translate(50%, 0%);
 }
 .img {
   width: 172.067px;

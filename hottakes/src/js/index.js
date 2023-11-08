@@ -1,10 +1,10 @@
 import React from "react";
 import "../css/index.css";
-import img1 from '../assets/img1.png';
+import img1 from "../assets/img1.png";
 import appstore from "../assets/appstore.png";
 import Scroller from "./scroller";
 import PlayButton from "./playbuttons";
-import arrow from '../assets/arrow.png';
+import arrow from "../assets/arrow.png";
 import Input from "./input";
 
 function IndexPage() {
@@ -28,7 +28,7 @@ function IndexPage() {
        */}{" "}
       <section className="section1">
         <section className="sub-section1">
-          <h1 className="hottakes">Hot Takes </h1>
+          <h1 className="grad">Hot Takes </h1>
           <h1>Discover the hottest trending spots</h1>
         </section>
         <section className="sub-section2">
@@ -41,7 +41,7 @@ function IndexPage() {
        */}{" "}
       <section className="section1">
         <section className="sub-section1">
-          <h1 className="hottakes">Hot Takes </h1>
+          <h1 className="grad">Hot Takes </h1>
           <h1>Hear trusted reviews from your friends</h1>
         </section>
         <section className="sub-section2">
@@ -54,7 +54,7 @@ function IndexPage() {
        */}{" "}
       <section className="section1">
         <section className="sub-section1">
-          <h1 className="hottakes">Hot Takes </h1>
+          <h1 className="grad">Hot Takes </h1>
           <h1>Share your own reviews with your friends</h1>
         </section>
         <section className="sub-section2">
@@ -67,7 +67,7 @@ function IndexPage() {
        */}{" "}
       <section className="section1">
         <section className="sub-section1">
-          <h1 className="hottakes">Plus, it's really fun.</h1>
+          <h1 className="grad">Plus, it's really fun.</h1>
           <PlayButton />
         </section>
         <section className="sub-section2">
@@ -78,49 +78,10 @@ function IndexPage() {
       </section>
       {/*           feature 5
        */}{" "}
-      <section className="section1">
-        <div className="note">
-          The best recommendations come from friends, but our know some great
-          spots, too.
-        </div>
-      </section>
       {/*           feature 6
        */}
-      <section className="section1">
-        <div className="note">
-          We’re always building.
-          <br></br>
-          Checkout our features <img src={arrow}></img>
-          <div className="feature-section">
-            <div className="feature-box"></div>
-            <div className="feature-box"></div>
-            <div className="feature-box"></div>
-          </div>
-        </div>
-      </section>
       {/*           feature 7
        */}
-      <section className="section1">
-        <div className="note">
-          There's no dress code,
-          <br></br>
-          but there is a vibe check <img src={arrow}></img>
-          <div className="feature-section">
-            <div className="feature-box"></div>
-          </div>
-        </div>
-      </section>
-      <section className="section1">
-        <div className="note">
-          Join the waitlist for early access.
-          <br></br>
-          We'll reach out soon!
-          <Input />
-          <div className="feature-section">
-            <div className="button-req">Request access</div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
