@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bulma": "^0.9.4",
+    "styled-components": "^6.1.0"
+  }
+}

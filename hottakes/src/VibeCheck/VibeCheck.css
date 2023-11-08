@@ -1,0 +1,12 @@
+.vibe{
+    background-color: black;
+    color: var(--neutral-ffffff, #FFF);
+text-align: center;
+
+/* Web/Heading/Heading 2/bold */
+font-family: Chakra Petch;
+font-size: 49px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 58.8px */
+}

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../css/playbuttons.css";
-import playpause from "../playpause.png";
-import restaurant from "../restaurant.png";
+import playpause from "../assets/playpause.png";
+import restaurant from "../assets/restaurant.png";
 
 function PlayButton() {
   return (

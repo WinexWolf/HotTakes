@@ -1,10 +1,10 @@
 import React from "react";
 import "../css/index.css";
-import img1 from '../img1.png';
-import appstore from "../appstore.png";
+import img1 from '../assets/img1.png';
+import appstore from "../assets/appstore.png";
 import Scroller from "./scroller";
 import PlayButton from "./playbuttons";
-import arrow from '../arrow.png';
+import arrow from '../assets/arrow.png';
 import Input from "./input";
 
 function IndexPage() {
