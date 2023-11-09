@@ -6,6 +6,7 @@ import Scroller from "./scroller";
 import PlayButton from "./playbuttons";
 import arrow from "../assets/arrow.png";
 import Input from "./input";
+import video from "../assets/explore.mov";
 
 function IndexPage() {
   return (
@@ -31,11 +32,9 @@ function IndexPage() {
           <h1 className="grad">Hot Takes </h1>
           <h1>Discover the hottest trending spots</h1>
         </section>
-        <section className="sub-section2">
-          <div className="screen"></div>
-          <Scroller />
-          {/* <img src={img1}></img> */}
-        </section>
+        <div className="vid">
+          <video src={video} width="316" height="600" controls></video>
+        </div>
       </section>
       {/*           feature 2
        */}{" "}
@@ -44,11 +43,9 @@ function IndexPage() {
           <h1 className="grad">Hot Takes </h1>
           <h1>Hear trusted reviews from your friends</h1>
         </section>
-        <section className="sub-section2">
-          <div className="screen"></div>
-          <Scroller />
-          {/* <img src={img1}></img> */}
-        </section>
+        <div className="vid">
+          <video src={video} width="316" height="600" controls></video>
+        </div>
       </section>
       {/*           feature 3
        */}{" "}
@@ -57,11 +54,9 @@ function IndexPage() {
           <h1 className="grad">Hot Takes </h1>
           <h1>Share your own reviews with your friends</h1>
         </section>
-        <section className="sub-section2">
-          <div className="screen"></div>
-          <Scroller />
-          {/* <img src={img1}></img> */}
-        </section>
+        <div className="vid">
+          <video src={video} width="316" height="600" controls></video>
+        </div>
       </section>
       {/*           feature 4
        */}{" "}
@@ -70,11 +65,9 @@ function IndexPage() {
           <h1 className="grad">Plus, it's really fun.</h1>
           <PlayButton />
         </section>
-        <section className="sub-section2">
-          <div className="screen"></div>
-          <Scroller />
-          {/* <img src={img1}></img> */}
-        </section>
+        <div className="vid">
+          <video src={video} width="316" height="600" controls></video>
+        </div>
       </section>
       {/*           feature 5
        */}{" "}

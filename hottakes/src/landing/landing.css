@@ -1,0 +1,48 @@
+.big-text {
+  color: #fff;
+
+  /* Web/Heading/Heading 1/bold */
+  font-family: Chakra Petch;
+  font-size: 61px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 73.2px */
+  text-align: left;
+  align-self: center;
+}
+.small-text {
+  color: var(--v-2-nobel, #b6b6b6);
+
+  /* Web/Heading/Heading 5/bold */
+  font-family: Chakra Petch;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 73.2px */
+  text-align: left;
+  align-self: center;
+}
+.section1 {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  align-self: self-start;
+
+  margin-bottom: 10vh;
+}
+.sub-section1 {
+  width: 40%;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+}

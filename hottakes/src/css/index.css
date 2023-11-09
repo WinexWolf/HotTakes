@@ -28,6 +28,16 @@
   font-weight: 700;
   line-height: 120%; /* 73.2px */
 }
+.vid {
+  background-attachment: fixed;
+}
+.fade-in {
+  transition: opacity 1s ease;
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
 h1 {
   color: #fff;
   width: 627px;

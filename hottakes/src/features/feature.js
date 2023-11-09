@@ -12,12 +12,14 @@ const Feature = () => {
       <div className="glow"></div>
       <div className="vibe">
         <div>We’re always building.</div>
-        <div className="columns">
-          <div>check out </div>
-          <div className=" grad"> &nbsp;our features</div>
-          <div>
+        <div className="columns ">
+          <div className="center">check out </div>
+          <div className=" grad center"> our features</div>
+          <div className="center">
             <a href="https://apps.apple.com/us/app/hot-takes-social-map-reviews/id6446862951">
-              <img src={arrow} alt=""></img>
+              <div className="center">
+                <img src={arrow} alt=""></img>
+              </div>
             </a>
           </div>
         </div>
