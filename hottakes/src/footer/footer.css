@@ -20,6 +20,19 @@
 
 .social a {
   display: inline-flex; /* Change to inline-flex to avoid extra spacing */
+.social {
+  padding: 15px 20px;
+  align-items: start;
+  text-align: left;
+}
+a.social {
+  margin: 0 -3rem;
+  transition: transform 100ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
 .logo-white {
   width: 10%;
 }
@@ -42,7 +55,6 @@ a {
 a:hover {
   color: red;
   text-decoration: none;
-  border-bottom: 1px solid red;
 }
 .footer-links {
   color: #fff;

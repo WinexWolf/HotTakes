@@ -4,6 +4,8 @@ import "./footer.css";
 import LogoWhite from "../assets/logo_white.png";
 import Linkedin from "../assets/linkedin.png";
 import Instagram from "../assets/instagram.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import "bulma/css/bulma.min.css";
 
 const Footer = () => {
@@ -15,10 +17,22 @@ const Footer = () => {
       <br></br>
       <div className="social">
         {/* <a href="https://www.instagram.com/hottakes.social/"> */}
-        <img src={Instagram} alt="Instagram"></img>
+        {/* <img src={Instagram} alt="Instagram"></img> */}
+        <a
+          href="https://www.instagram.com/hottakes.social/"
+          className="youtube social"
+        >
+          <FontAwesomeIcon icon={faInstagram} size="2x" />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/hot-takes-social-inc/"
+          className="youtube social"
+        >
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        </a>
         {/* </a> */}
         {/* <a href="https://www.linkedin.com/company/hot-takes-social-inc/"> */}
-        <img src={Linkedin} alt="LinkedIn"></img>
+        {/* <img src={Linkedin} alt="LinkedIn"></img> */}
         {/* </a> */}
       </div>
       <br />
