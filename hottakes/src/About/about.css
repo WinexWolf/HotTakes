@@ -11,18 +11,20 @@ html {
   font-weight: 700;
   line-height: 120%; /* 37.2px */
   padding-top: 172px;
-
+  align-items: start;
+  text-align: left;
   padding-bottom: 71px;
 }
 img {
   border-radius: 20px;
   max-height: 75%;
   max-width: 100%;
+  align-items: start;
 }
 .container {
   display: flex;
   flex-direction: column;
-  align-items: start;
+
   padding-left: 164px;
   padding-right: 164px;
 }
@@ -42,8 +44,7 @@ img {
 .pink {
   color: #ff4e98;
 }
-.container2 {
-}
+
 .name {
   color: var(--neutral-ffffff, #fff);
 
@@ -72,6 +73,10 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 130%; /* 20.8px */
+  padding-right: 30px;
+
+  text-align: justify;
+  text-justify: inter-word;
 }
 .glow {
   width: 361px;

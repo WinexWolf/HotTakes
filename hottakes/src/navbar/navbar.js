@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import HamburgerMenu from "../js/hamburger";
 import "./navbar.css";
+import "bulma/css/bulma.min.css";
 
 function scrollToContact() {
   // Find the "Project" section by its ID
@@ -54,26 +55,28 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="navbar">
-      {/* {!showLogo && <img src={} height={80} width={80}></img>}
+    <div className="has-background-black-bis">
+      <nav className="navbar">
+        {/* {!showLogo && <img src={} height={80} width={80}></img>}
         {showLogo && <img src={} height={80} width={80}></img>} */}
-      <ul>
-        <li>
-          <a onClick={scrollToAbout}>Features</a>
-        </li>
-        <li>
-          <a onClick={scrollToProject}>Place Curators</a>
-        </li>
-        <li>
-          <a onClick={scrollToExperience}>Community Guidelines</a>
-        </li>
-        <li>
-          <a href="/About">About</a>
-        </li>
-      </ul>
+        <ul>
+          <li>
+            <a onClick={scrollToAbout}>Features</a>
+          </li>
+          <li>
+            <a onClick={scrollToProject}>Place Curators</a>
+          </li>
+          <li>
+            <a onClick={scrollToExperience}>Community Guidelines</a>
+          </li>
+          <li>
+            <a href="/About">About</a>
+          </li>
+        </ul>
 
-      <HamburgerMenu></HamburgerMenu>
-    </nav>
+        <HamburgerMenu></HamburgerMenu>
+      </nav>
+    </div>
   );
 }
 

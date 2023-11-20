@@ -22,7 +22,7 @@ hr {
 ul {
   list-style-type: circle;
 }
-.head2 {
+.head5 {
   color: #fff;
   padding-left: 164px;
 
@@ -45,7 +45,7 @@ ul {
   line-height: 150%; /* 37.5px */
   padding-right: 164px;
 }
-.desc {
+.desc2 {
   color: var(--neutral-b-6-b-6-b-6, var(--v-2-nobel, #b6b6b6));
   font-family: Inter;
   font-size: 16px;

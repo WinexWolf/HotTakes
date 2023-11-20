@@ -33,7 +33,7 @@ const PlaceCurators = () => {
         <div className="column">
           <div className="sub" ref={termsRef}>
             <div className="heading1">Terms and Conditions</div>
-            <div className="desc">
+            <div className="desc3">
               Welcome to Hot Takes! Hot Takes is a platform designed for users
               to share their takes with friends and connect with businesses. We
               aim to create a fun and engaging space where authenticity,
@@ -45,7 +45,7 @@ const PlaceCurators = () => {
           </div>
           <div className="sub">
             <div className="head2">Purpose and Content:</div>
-            <div className="desc">
+            <div className="desc3">
               Hot Takes is intended for users to share their opinions and
               thoughts with their friends in an open and respectful manner.
               <br />
@@ -64,7 +64,7 @@ const PlaceCurators = () => {
           </div>
           <div className="sub">
             <div className="head2">User Commitments:</div>
-            <div className="desc">
+            <div className="desc3">
               By joining our platform, users agree to uphold the following
               commitments:
               <br />
@@ -82,7 +82,7 @@ const PlaceCurators = () => {
           </div>{" "}
           <div className="sub">
             <div className="head2">Guidelines and Prohibited Activities:</div>
-            <div className="desc">
+            <div className="desc3">
               The following activities and types of content are strictly
               prohibited on Hot Takes:
               <br />
@@ -106,7 +106,7 @@ const PlaceCurators = () => {
           </div>{" "}
           <div className="sub">
             <div className="head2">User Responsibility:</div>
-            <div className="desc">
+            <div className="desc3">
               Users are responsible for their actions and the content they post
               on Hot Takes. Hot Takes Social, Inc. does not endorse or guarantee
               the accuracy, integrity, or quality of user-generated content.
@@ -118,7 +118,7 @@ const PlaceCurators = () => {
           </div>{" "}
           <div className="sub">
             <div className="head2">Termination:</div>
-            <div className="desc">
+            <div className="desc3">
               Hot Takes Social, Inc. reserves the right to terminate or suspend
               user accounts at its discretion if any violations of these terms
               and conditions are identified.
@@ -129,7 +129,7 @@ const PlaceCurators = () => {
           </div>{" "}
           <div className="sub">
             <div className="head2">Intellectual Property:</div>
-            <div className="desc">
+            <div className="desc3">
               Users retain ownership of the content they post on Hot Takes. By
               posting content, users grant Hot Takes Social, Inc. a
               non-exclusive, worldwide, royalty-free license to use, reproduce,
@@ -139,7 +139,7 @@ const PlaceCurators = () => {
           </div>{" "}
           <div className="sub">
             <div className="head2">Disclaimer of Liability:</div>
-            <div className="desc">
+            <div className="desc3">
               Hot Takes Social, Inc. shall not be held liable for any direct,
               indirect, incidental, consequential, or special damages arising
               out of or in connection with the use of Hot Takes or the content
@@ -148,7 +148,7 @@ const PlaceCurators = () => {
           </div>{" "}
           <div className="sub">
             <div className="head2">Modification of Terms:</div>
-            <div className="desc">
+            <div className="desc3">
               Hot Takes Social, Inc. reserves the right to modify or update
               these terms and conditions at any time. Users will be notified of
               any significant changes via their registered email address.
@@ -156,7 +156,7 @@ const PlaceCurators = () => {
           </div>{" "}
           <div className="sub">
             <div className="head2">Governing Law:</div>
-            <div className="desc">
+            <div className="desc3">
               These terms and conditions shall be governed by and construed in
               accordance with the laws of the state of Delaware, without regard
               to its conflict of laws principles.
@@ -164,7 +164,7 @@ const PlaceCurators = () => {
           </div>{" "}
           <div className="sub">
             <div className="head2">Age:</div>
-            <div className="desc">
+            <div className="desc3">
               Users must be above the age of 18 to use Hot Takes.
             </div>
           </div>
@@ -173,7 +173,7 @@ const PlaceCurators = () => {
           </div>
           <div className="sub" ref={privacyRef}>
             <div className="heading1">Privacy Policy</div>
-            <div className="desc">
+            <div className="desc3">
               At Hot Takes, we take your privacy very seriously. This policy
               outlines how we collect, use, and protect your personal
               information on our map-based social audio platform.
@@ -181,7 +181,7 @@ const PlaceCurators = () => {
           </div>
           <div className="sub">
             <div className="head2">Data Collection</div>
-            <div className="desc">
+            <div className="desc3">
               When you sign up for Hot Takes, we collect personal information
               that you provide us with, such as your name and email address. We
               also collect information about your device, including your IP
@@ -204,7 +204,7 @@ const PlaceCurators = () => {
           </div>
           <div className="sub">
             <div className="head2">Data Usage</div>
-            <div className="desc">
+            <div className="desc3">
               We use the data we collect to provide you with the best user
               experience possible. This includes personalizing your account,
               sending you notifications, and improving our services. We do not
@@ -224,7 +224,7 @@ const PlaceCurators = () => {
           </div>
           <div className="sub">
             <div className="head2">Data Protection</div>
-            <div className="desc">
+            <div className="desc3">
               We take the protection of your personal information very
               seriously. We have implemented various security measures to ensure
               your data is safe, including encryption and regular backups. We
@@ -248,7 +248,7 @@ const PlaceCurators = () => {
           </div>
           <div className="sub">
             <div className="head2">Changes to Policy</div>
-            <div className="desc">
+            <div className="desc3">
               We reserve the right to make changes to this privacy policy at any
               time. Any changes will be posted on our website and will take
               effect immediately.
@@ -256,7 +256,7 @@ const PlaceCurators = () => {
           </div>
           <div className="sub">
             <div className="head2">Contact Us</div>
-            <div className="desc">
+            <div className="desc3">
               If you have any questions or concerns about our privacy policy,
               please contact us.
             </div>

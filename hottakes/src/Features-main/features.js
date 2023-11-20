@@ -17,12 +17,12 @@ const Features = () => {
       </div>
 
       <div className="columns">
-        <div className="column is-two-fifths head2">Be Respectful.</div>
+        <div className="column is-two-fifths head5">Be Respectful.</div>
         <div className="column">
           <div className="head3">
             No Violence, Threats, Harassment, or Hateful Conduct.
           </div>
-          <div className="desc">
+          <div className="desc2">
             <ul>
               <li>Users cannot threaten other users or businesses.</li>
               <li>Users cannot harass other users or businesses.</li>
@@ -46,7 +46,7 @@ const Features = () => {
           <br />
           <br />
           <div className="head3">Privacy breaches are violence.</div>
-          <div className="desc">
+          <div className="desc2">
             <ul>
               {" "}
               <li>
@@ -62,7 +62,7 @@ const Features = () => {
         <hr />
       </div>
       <div className="columns">
-        <div className="column is-two-fifths head2">Be Truthful.</div>
+        <div className="column is-two-fifths head5">Be Truthful.</div>
         <div className="column">
           <div className="head3">
             Users cannot spread falsehoods maliciously, both towards users or
@@ -95,7 +95,7 @@ const Features = () => {
         <hr />
       </div>
       <div className="columns">
-        <div className="column is-two-fifths head2">Be Civil.</div>
+        <div className="column is-two-fifths head5">Be Civil.</div>
         <div className="column">
           <div className=" head3">
             Users cannot share profanity, vulgarity, or any other form of
@@ -114,7 +114,7 @@ const Features = () => {
         <hr />
       </div>
       <div className="columns">
-        <div className="column is-two-fifths head2">Be Legal.</div>
+        <div className="column is-two-fifths head5">Be Legal.</div>
         <div className="column">
           <div className="head3">
             Users cannot post content that is illegal, violates the law, or
@@ -132,7 +132,7 @@ const Features = () => {
         <hr />
       </div>
       <div className="columns">
-        <div className="column is-two-fifths head2">Be Human.</div>
+        <div className="column is-two-fifths head5">Be Human.</div>
         <div className="column">
           <div className="head3">
             Generative AI has made it more difficult to know whether someone is
