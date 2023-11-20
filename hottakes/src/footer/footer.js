@@ -9,25 +9,31 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="logo-white">
-        <img src={LogoWhite} width={232} height={91} alt=" "></img>
+        <img src={LogoWhite} alt=" "></img>
       </div>
       <br></br>
-      <div className="columns social">
-        <div className="column">
-          <a href="https://www.instagram.com/hottakes.social/">
-            <img src={Instagram} width={232} height={91} alt=""></img>
-          </a>
-        </div>
-        <div className="column">
-          <a href="https://www.linkedin.com/company/hot-takes-social-inc/">
-            <img src={Linkedin} width={232} height={91} alt=""></img>
-          </a>
-        </div>
+      <div className="social">
+        {/* <a href="https://www.instagram.com/hottakes.social/"> */}
+        <img src={Instagram} alt="Instagram"></img>
+        {/* </a> */}
+        {/* <a href="https://www.linkedin.com/company/hot-takes-social-inc/"> */}
+        <img src={Linkedin} alt="LinkedIn"></img>
+        {/* </a> */}
       </div>
-      <div className="email">andrew@hottakes.social</div>
       <br />
-      <div className="footer-links">Terms and Conditions</div>
-      <div className="footer-links">Privacy Policy</div>
+      <div className="email">
+        <a href="mailto:andrew@hottakes.social?subject = Feedback&body = Message">
+          andrew@hottakes.social
+        </a>
+      </div>
+
+      <br />
+      <div className="footer-links">
+        <a href="/terms-and-conditions#terms">Terms and Conditions</a>
+      </div>
+      <div className="footer-links">
+        <a href="/terms-and-conditions#privacy">Privacy Policy</a>
+      </div>
       <br />
       <div className="copyright">
         COPYRIGHT PROVERS 2023 - ALL RIGHTS RESERVED

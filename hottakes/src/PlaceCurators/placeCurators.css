@@ -18,7 +18,7 @@ div {
 .columns {
   padding-top: 282px;
 }
-a {
+.header1 {
   color: var(--neutral-ffffff, #fff);
   font-family: Inter;
   font-size: 16px;
@@ -27,7 +27,7 @@ a {
 
   padding-left: 164px;
 }
-a:hover {
+.header1:hover {
   color: red;
 }
 .heading1 {

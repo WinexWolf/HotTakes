@@ -1,42 +1,62 @@
-.footer{
-    background-color: black;
-    align-self: self-start;
-    align-content: start;
-    text-align: left;
-    padding-left: 145px;
+.footer {
+  background-color: black;
+  align-self: self-start;
+  align-content: start;
+  text-align: left;
+  padding-left: 145px;
 }
-.logo-white{
-    height: auto;
-    max-width: 160px;
+/* Update the CSS for social icons */
+/* Update the CSS for social icons */
+.social {
+  display: flex;
+  align-items: center;
+  width: 35%;
+  padding-right: 24px;
 }
-.social{
-    height: auto;
-   max-width: 150px;
+/* Update the CSS for social icons */
+/* .social {
+  display: flex;
+  align-items: center;
 }
-.email{
-    color: #FFF;
 
-/* Web/Body/Base/regular */
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 120%; /* 19.2px */
+.social a {
+  display: inline-flex; /* Change to inline-flex to avoid extra spacing */
+
+.social img {
+  margin-right: 10px; /* Adjust the space between icons */
 }
-.footer-links{
-    color: #FFF;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 120%; /* 19.2px */
-text-decoration-line: underline;
+.email {
+  color: #fff;
+  text-align: left;
+  /* Web/Body/Base/regular */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
 }
-.copyright{
-    color: var(--neutral-d-9-d-9-d-9, #D9D9D9);
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 120%; /* 19.2px */
+a {
+  color: #fff;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+  border-bottom: 1px solid red;
+}
+.footer-links {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  text-decoration-line: underline;
+}
+.copyright {
+  color: var(--neutral-d-9-d-9-d-9, #d9d9d9);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
 }
