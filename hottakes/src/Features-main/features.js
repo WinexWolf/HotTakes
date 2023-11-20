@@ -33,6 +33,8 @@ const Features = () => {
               </li>
             </ul>
           </div>
+          <br />
+          <br />
           <div className="head3">
             Users cannot be racist, sexist, homophobic, or spread hate towards
             any group of people.
