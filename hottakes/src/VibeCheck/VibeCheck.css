@@ -26,6 +26,7 @@
   border-radius: 361px;
   background: var(--less-hot-pink-ff-4-e-98, #ff4e98);
   filter: blur(250px);
+  align-self: center;
 }
 .grad {
   background: var(

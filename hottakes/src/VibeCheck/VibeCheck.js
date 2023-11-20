@@ -11,16 +11,16 @@ const VibeCheck = () => {
       <div className="container">
         <div className="glow"></div>
         <div className="vibe">
-          <div>There’s no dress code,</div>
-          <div className="columns">
-            <div>but there is a </div>
-            <div className=" grad"> &nbsp;vibe check</div>
-            <div>
-              <a href="https://apps.apple.com/us/app/hot-takes-social-map-reviews/id6446862951">
-                <img src={arrow} alt=""></img>
-              </a>
-            </div>
-          </div>
+          <span>There’s no dress code,</span>
+          <br />
+          <span>but there is a </span>
+          <span className="grad">vibe check</span>
+          <span>
+            <a href="https://apps.apple.com/us/app/hot-takes-social-map-reviews/id6446862951">
+              <img src={arrow} alt=""></img>
+            </a>
+          </span>
+
           <div className="container">
             <div className="box1"></div>
             <div className="img">
