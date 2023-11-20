@@ -1,12 +1,13 @@
 import React, { useRef } from "react";
 import "./placeCurators.css";
 import "bulma/css/bulma.min.css";
+import Footer from "../footer/footer";
 const PlaceCurators = () => {
   const termsRef = useRef(null);
   const privacyRef = useRef(null);
   return (
     <div className="has-background-black-bis">
-      <div className="columns">
+      <div className="columns okay">
         <div className="column is-two-fifths">
           <div className="header1">
             <a
@@ -263,6 +264,7 @@ const PlaceCurators = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -13,6 +13,7 @@ import Bloomberg from "../assets/bloomberg.png";
 import ComedyCentral from "../assets/comedycentral.png";
 
 import "bulma/css/bulma.min.css";
+import Footer from "../footer/footer";
 const About = () => {
   return (
     <div className="has-background-black-bis">
@@ -114,6 +115,8 @@ const About = () => {
           </div>
         </section>
       </center>
+
+      <Footer />
     </div>
   );
 };

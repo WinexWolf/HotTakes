@@ -4,10 +4,11 @@ import "./footer.css";
 import LogoWhite from "../assets/logo_white.png";
 import Linkedin from "../assets/linkedin.png";
 import Instagram from "../assets/instagram.png";
+import "bulma/css/bulma.min.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer has-background-black-bis">
       <div className="logo-white">
         <img src={LogoWhite} alt=" "></img>
       </div>

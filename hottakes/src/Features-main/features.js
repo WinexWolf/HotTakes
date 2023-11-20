@@ -1,6 +1,7 @@
 import React from "react";
 import "./features.css";
 import "bulma/css/bulma.min.css";
+import Footer from "../footer/footer";
 
 const Features = () => {
   return (
@@ -159,6 +160,7 @@ const Features = () => {
       <div className="divider1">
         <hr />
       </div>
+      <Footer />
     </div>
   );
 };

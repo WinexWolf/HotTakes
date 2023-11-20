@@ -89,17 +89,19 @@ img {
 .heading3 {
   color: #fff;
   text-align: center;
-
+  padding-bottom: 120px;
   /* Web/Heading/Heading 1/bold */
   font-family: Chakra Petch;
   font-size: 61px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 73.2px */
-  padding-bottom: 120px;
 }
 
 .container4 {
   padding-left: 164px;
   padding-right: 164px;
+}
+.container3 {
+  padding-bottom: 200px;
 }

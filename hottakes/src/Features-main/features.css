@@ -9,6 +9,7 @@
   line-height: 120%; /* 37.2px */
   text-align: justify;
   padding-left: 164px;
+  padding-top: 160px;
 }
 hr {
   stroke-width: 1px;
@@ -18,6 +19,7 @@ hr {
   padding-left: 164px;
   padding-right: 164px;
   padding-top: 160px;
+  padding-bottom: 160px;
 }
 ul {
   list-style-type: circle;

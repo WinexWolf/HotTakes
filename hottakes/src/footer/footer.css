@@ -1,5 +1,4 @@
 .footer {
-  background-color: black;
   align-self: self-start;
   align-content: start;
   text-align: left;
@@ -21,7 +20,9 @@
 
 .social a {
   display: inline-flex; /* Change to inline-flex to avoid extra spacing */
-
+.logo-white {
+  width: 10%;
+}
 .social img {
   margin-right: 10px; /* Adjust the space between icons */
 }
