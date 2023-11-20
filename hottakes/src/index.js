@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "community-guideliness",
+    path: "community-guidelines",
     element: <Features />,
   },
   {
