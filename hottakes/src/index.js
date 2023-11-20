@@ -1,20 +1,50 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./Home/home";
+import Features from "./Features-main/features";
+import PlaceCurators from "./PlaceCurators/placeCurators";
+import About from "./About/about";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>
-);
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "home",
+    element: <Home />,
+  },
+  {
+    path: "features",
+    element: <Features />,
+  },
+  {
+    path: "place-curators",
+    element: <PlaceCurators />,
+  },
+  {
+    path: "about",
+    element: <About />,
+  },
+]);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+document.addEventListener("DOMContentLoaded", function () {
+  const rootElement = document.getElementById("root");
+  if (rootElement) {
+    const root = ReactDOM.createRoot(rootElement);
+    root.render(
+      <React.StrictMode>
+        {/* <BrowserRouter> */}
+        <RouterProvider router={router} />
+        {/* </BrowserRouter> */}
+      </React.StrictMode>
+    );
+    reportWebVitals();
+  } else {
+    console.error("Root element not found!");
+  }
+});
