@@ -2,6 +2,16 @@ import React from "react";
 import "./about.css";
 import Navbar from "../navbar/navbar";
 import team from "../assets/team.png";
+import CornellTech from "../assets/cornelltech.png";
+import Parsons from "../assets/parsons.png";
+import McGill from "../assets/mcgill.png";
+import PwC from "../assets/pwc.png";
+import Viacombs from "../assets/viacombs.png";
+import Twitch from "../assets/twitch.png";
+import EY from "../assets/ey.png";
+import Bloomberg from "../assets/bloomberg.png";
+import ComedyCentral from "../assets/comedycentral.png";
+
 import "bulma/css/bulma.min.css";
 const About = () => {
   return (
@@ -67,8 +77,41 @@ const About = () => {
         </div>
       </section>
       <center>
-        <section className="glow">
-          <div class="heading3">With experience across industries</div>
+        <section>
+          <div className="container3">
+            <div className="glow"></div>
+
+            <div className="heading3">With experience across industries</div>
+            <div className="columns container4">
+              <div className="column">
+                <img src={CornellTech} alt=""></img>
+              </div>
+              <div className="column">
+                <img src={Parsons} alt=""></img>
+              </div>
+              <div className="column">
+                <img src={McGill} alt=""></img>
+              </div>
+              <div className="column">
+                <img src={PwC} alt=""></img>
+              </div>
+              <div className="column">
+                <img src={Viacombs} alt=""></img>
+              </div>
+              <div className="column">
+                <img src={Twitch} alt=""></img>
+              </div>
+              <div className="column">
+                <img src={EY} alt=""></img>
+              </div>
+              <div className="column">
+                <img src={Bloomberg} alt=""></img>
+              </div>
+              <div className="column">
+                <img src={ComedyCentral} alt=""></img>
+              </div>
+            </div>
+          </div>
         </section>
       </center>
     </div>

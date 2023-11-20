@@ -19,11 +19,11 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "features",
+    path: "community-guideliness",
     element: <Features />,
   },
   {
-    path: "place-curators",
+    path: "terms-and-conditions",
     element: <PlaceCurators />,
   },
   {
