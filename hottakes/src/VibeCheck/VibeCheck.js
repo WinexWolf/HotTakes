@@ -20,7 +20,11 @@ const VibeCheck = () => {
               <img src={arrow} alt=""></img>
             </a>
           </span>
-
+          <div className="feature-box1">
+            <div className="img">
+              <img src={vibe} alt=""></img>
+            </div>
+          </div>
           <div className="container">
             <div className="box1"></div>
             <div className="img">

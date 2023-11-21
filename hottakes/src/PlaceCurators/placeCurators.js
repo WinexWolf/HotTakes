@@ -2,12 +2,14 @@ import React, { useRef } from "react";
 import "./placeCurators.css";
 import "bulma/css/bulma.min.css";
 import Footer from "../footer/footer";
+import Navbar from "../navbar/navbar";
 const PlaceCurators = () => {
   const termsRef = useRef(null);
   const privacyRef = useRef(null);
   return (
-    <div className="has-background-black-bis">
-      <div className="columns okay">
+    <div className="main-background">
+      <Navbar />
+      <div className="columns">
         <div className="column is-two-fifths">
           <div className="header1">
             <a

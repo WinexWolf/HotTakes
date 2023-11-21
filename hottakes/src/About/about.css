@@ -1,4 +1,4 @@
-html {
+.main-background {
   background-color: #000;
 }
 .header {
@@ -10,12 +10,12 @@ html {
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 37.2px */
-  padding-top: 172px;
+
   align-items: start;
   text-align: left;
   padding-bottom: 71px;
 }
-img {
+.round-img img {
   border-radius: 20px;
   max-height: 75%;
   max-width: 100%;

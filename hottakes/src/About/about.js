@@ -16,13 +16,15 @@ import "bulma/css/bulma.min.css";
 import Footer from "../footer/footer";
 const About = () => {
   return (
-    <div className="has-background-black-bis">
-      {/* <Navbar /> */}
+    <div className="main-background">
+      <Navbar />
       <section>
         <div className="container">
           {" "}
           <div className="header">Our Team</div>
-          <img src={team} alt=""></img>
+          <div className="round-img">
+            <img src={team} alt=""></img>
+          </div>
           <div className="heading2">
             <center>
               <span className="pink">5 </span>

@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import HamburgerMenu from "../js/hamburger";
 import "./navbar.css";
 import "bulma/css/bulma.min.css";
+import logo from "../assets/logo.png";
 
 function scrollToContact() {
   // Find the "Project" section by its ID
@@ -55,28 +56,31 @@ function Navbar() {
   }, []);
 
   return (
-    <div className="has-background-black-bis">
-      <nav className="navbar">
-        {/* {!showLogo && <img src={} height={80} width={80}></img>}
-        {showLogo && <img src={} height={80} width={80}></img>} */}
-        <ul>
-          <li>
-            <a onClick={scrollToAbout}>Features</a>
-          </li>
-          <li>
-            <a onClick={scrollToProject}>Place Curators</a>
-          </li>
-          <li>
-            <a onClick={scrollToExperience}>Community Guidelines</a>
-          </li>
-          <li>
-            <a href="/About">About</a>
-          </li>
-        </ul>
-
-        <HamburgerMenu></HamburgerMenu>
-      </nav>
+    <div class="topnav">
+      <a class="active" href="/">
+        <img src={logo} alt=""></img>
+      </a>
+      <a href="#Features">Features</a>
+      <a href="#place-curators">Place Curators</a>
+      <a href="/community-guidelines">Community Guidelines</a>
+      <a href="/about">About</a>
     </div>
+    // <div className="has-background-black-bis">
+    //   <nav className="navbar">
+    //     {/* {!showLogo && <img src={} height={80} width={80}></img>}
+    //     {showLogo && <img src={} height={80} width={80}></img>} */}
+
+    //     <a onClick={scrollToAbout}>Features</a>
+
+    //     <a onClick={scrollToProject}>Place Curators</a>
+
+    //     <a onClick={scrollToExperience}>Community Guidelines</a>
+
+    //     <a href="/About">About</a>
+
+    //     <HamburgerMenu></HamburgerMenu>
+    //   </nav>
+    // </div>
   );
 }
 

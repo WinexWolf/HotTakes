@@ -2,10 +2,12 @@ import React from "react";
 import "./features.css";
 import "bulma/css/bulma.min.css";
 import Footer from "../footer/footer";
+import Navbar from "../navbar/navbar";
 
 const Features = () => {
   return (
-    <div className="has-background-black-bis">
+    <div className="main-background">
+      <Navbar />
       <div className="columns">
         <div className="column is-two-fifths head1">
           Our Community Guidelines

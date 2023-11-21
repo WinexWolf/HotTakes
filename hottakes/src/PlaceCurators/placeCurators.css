@@ -15,9 +15,7 @@ div {
   scroll-margin-block-end: 110pxx;
   /*Adds margin to the bottom of the viewport*/
 }
-.okay {
-  padding-top: 282px;
-}
+
 .header1 {
   color: var(--neutral-ffffff, #fff);
   font-family: Inter;
