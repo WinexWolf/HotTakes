@@ -6,6 +6,7 @@
     "aos": "^2.3.4",
     "bulma": "^0.9.4",
     "react-hook-form": "^7.48.2",
+    "react-intersection-observer": "^9.5.3",
     "react-parallax": "^3.5.1",
     "react-router-dom": "^6.19.0",
     "react-scroll-motion": "^0.3.2",
