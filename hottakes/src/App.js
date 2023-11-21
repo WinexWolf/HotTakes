@@ -13,27 +13,31 @@ import PlaceCurators from "./PlaceCurators/placeCurators.js";
 import Features from "./Features-main/features.js";
 import Home from "./Home/home.js";
 import IndexPage from "./js/index.js";
+import Body from "./body/body.js";
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header"> */}
       <Navbar />
-      <Landing />
-      <IndexPage />
-      {/* <Recommendations /> */}
-      <Feature />
-      <VibeCheck />
-      <Footer />
+      <div className="snap-container">
+        <div className="snap-item">
+          <Landing />
+        </div>
+        <div className="snap-item">
+          <Body />
+        </div>
 
-      {/* <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/features" element={<Features />} />
-        <Route path="/place-curators" element={<PlaceCurators />} />
-        <Route path="/about" element={<About />} />
-      </Routes> */}
+        <div className="snap-item">
+          <Feature />
+        </div>
+        <div className="snap-item">
+          <VibeCheck />
+        </div>
 
-      {/* </header> */}
+        <div className="snap-item">
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }

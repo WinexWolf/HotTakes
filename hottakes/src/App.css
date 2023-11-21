@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   background-color: #000;
+  ::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
 }
 
 .App-logo {

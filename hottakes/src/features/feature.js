@@ -8,7 +8,7 @@ import thumbsup from "../assets/thumb-up.png";
 
 const Feature = () => {
   return (
-    <div className="container">
+    <div className="container1">
       <div className="glow"></div>
       <div className="vibe">
         <span>We’re always building.</span>

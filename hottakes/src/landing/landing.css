@@ -29,6 +29,9 @@
 .sec {
   padding-left: 10%;
   padding-right: 10%;
+  height: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .img-app-store {
   text-align: left;
