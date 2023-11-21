@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./navbar/navbar.js";
-import IndexPage from "./js/index.js";
+
 import Footer from "./footer/footer.js";
 import VibeCheck from "./VibeCheck/VibeCheck.js";
 import Feature from "./features/feature.js";
@@ -12,6 +12,7 @@ import About from "./About/about.js";
 import PlaceCurators from "./PlaceCurators/placeCurators.js";
 import Features from "./Features-main/features.js";
 import Home from "./Home/home.js";
+import IndexPage from "./js/index.js";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <Navbar />
       <Landing />
       <IndexPage />
-      <Recommendations />
+      {/* <Recommendations /> */}
       <Feature />
       <VibeCheck />
       <Footer />

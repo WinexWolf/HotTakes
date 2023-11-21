@@ -10,6 +10,10 @@
   text-align: left;
   align-self: center;
 }
+.image-land img {
+  height: 100%;
+  width: 100%;
+}
 .small-text {
   color: var(--v-2-nobel, #b6b6b6);
 
@@ -22,27 +26,14 @@
   text-align: left;
   align-self: center;
 }
-.section1 {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #000;
-  border-radius: 5px;
-  text-align: left;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  display: flex;
-  flex-direction: row;
-  align-self: self-start;
-
-  margin-bottom: 10vh;
+.sec {
+  padding-left: 10%;
+  padding-right: 10%;
 }
-.sub-section1 {
-  width: 40%;
-  padding: 20px;
-  border: 1px solid #000;
-  border-radius: 5px;
-  text-align: center;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  justify-content: start;
-  display: flex;
-  flex-direction: column;
+.img-app-store {
+  text-align: left;
+}
+.img-app-store img {
+  width: 35%;
+  height: 15%;
 }

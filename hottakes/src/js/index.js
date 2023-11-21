@@ -12,30 +12,6 @@ function IndexPage() {
   return (
     <div className="">
       {/* landing */}
-      <section className="section1">
-        <section className="sub-section1">
-          <h1>
-            Local business reviews from the most trustworthy source: your
-            friends!
-          </h1>
-          <p>Download on the App Store</p>
-          <img src={appstore} width={232} height={91}></img>
-        </section>
-        <section className="sub-section1">
-          <img src={img1} width={700} height={500}></img>
-        </section>
-      </section>
-      {/*      feature 1
-       */}{" "}
-      <section className="section1">
-        <section className="sub-section1">
-          <h1 className="grad">Hot Takes </h1>
-          <h1>Discover the hottest trending spots</h1>
-        </section>
-        <div className="vid">
-          <video src={video} width="316" height="600" controls></video>
-        </div>
-      </section>
       {/*           feature 2
        */}{" "}
       <section className="section1">

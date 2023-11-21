@@ -5,18 +5,25 @@ import appstore from "../assets/appstore.png";
 
 const Landing = () => {
   return (
-    <section className="section1">
-      <section className="sub-section1">
+    <div className="columns sec">
+      <div className="column">
         <div className="big-text">
-          Local business reviews from the most trustworthy source: your friends!
+          Local business
+          <br /> reviews from the most trustworthy
+          <br /> source: your friends!
         </div>
+        <br />
         <div className="small-text">Download on the App Store</div>
-        <img src={appstore} width={232} height={91} alt=""></img>
-      </section>
-      <section className="sub-section1">
-        <img src={img1} width={700} height={500} alt=""></img>
-      </section>
-    </section>
+        <br />
+        <div className="img-app-store">
+          {" "}
+          <img src={appstore} alt=""></img>
+        </div>
+      </div>
+      <div className="column image-land">
+        <img src={img1} alt=""></img>
+      </div>
+    </div>
   );
 };
 

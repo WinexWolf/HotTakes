@@ -11,18 +11,18 @@ const Feature = () => {
     <div className="container">
       <div className="glow"></div>
       <div className="vibe">
-        <div>We’re always building.</div>
-        <div className="columns ">
-          <div className="center">check out </div>
-          <div className=" grad center"> our features</div>
-          <div className="center">
-            <a href="https://apps.apple.com/us/app/hot-takes-social-map-reviews/id6446862951">
-              <div className="center">
-                <img src={arrow} alt=""></img>
-              </div>
-            </a>
-          </div>
-        </div>
+        <span>We’re always building.</span>
+        <br />
+        <span className="center">check out</span>
+        <span className=" grad center"> our features</span>
+        <span className="center">
+          <a href="https://apps.apple.com/us/app/hot-takes-social-map-reviews/id6446862951">
+            <span className="center">
+              <img src={arrow} alt=""></img>
+            </span>
+          </a>
+        </span>
+
         <div className="columns">
           <div className="feature-section column">
             <div className="feature-box">
