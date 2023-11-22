@@ -10,7 +10,7 @@ import "bulma/css/bulma.min.css";
 
 const Footer = () => {
   return (
-    <div className="footer has-background-black-bis">
+    <div className="footer main-background">
       <div className="logo-white">
         <img src={LogoWhite} alt=" "></img>
       </div>
