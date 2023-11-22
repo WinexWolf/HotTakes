@@ -6,6 +6,7 @@ div {
   /*Adds margin to the top of the viewport*/
 
   scroll-margin-block-end: 110pxx;
+
   /*Adds margin to the bottom of the viewport*/
 }
 #terms {
@@ -13,9 +14,12 @@ div {
   /*Adds margin to the top of the viewport*/
 
   scroll-margin-block-end: 110pxx;
+
   /*Adds margin to the bottom of the viewport*/
 }
-
+.pad1 {
+  padding-top: 10%;
+}
 .header1 {
   color: var(--neutral-ffffff, #fff);
   font-family: Inter;
@@ -61,6 +65,7 @@ div {
 }
 .sub {
   padding-right: 198px;
+  padding-top: 20px;
 }
 hr {
   display: block;

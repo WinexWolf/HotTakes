@@ -9,7 +9,7 @@ const PlaceCurators = () => {
   return (
     <div className="main-background">
       <Navbar />
-      <div className="columns">
+      <div className="columns pad1">
         <div className="column is-two-fifths">
           <div className="header1">
             <a
