@@ -14,6 +14,7 @@ import Features from "./Features-main/features.js";
 import Home from "./Home/home.js";
 import IndexPage from "./js/index.js";
 import Body from "./body/body.js";
+import Takes from "./takes/takes.js";
 
 function App() {
   return (
@@ -33,7 +34,9 @@ function App() {
         <div className="snap-item">
           <VibeCheck />
         </div> */}
-
+        <div className="snap-item">
+          <Takes />
+        </div>
         <div className="snap-item">
           <Footer />
         </div>
