@@ -27,12 +27,12 @@ function App() {
           <Body />
         </div>
 
-        <div className="snap-item">
+        {/* <div className="snap-item">
           <Feature />
         </div>
         <div className="snap-item">
           <VibeCheck />
-        </div>
+        </div> */}
 
         <div className="snap-item">
           <Footer />

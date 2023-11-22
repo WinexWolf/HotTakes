@@ -19,7 +19,7 @@ const About = () => {
     <div className="main-background">
       <Navbar />
       <section>
-        <div className="container">
+        <div className="container5">
           {" "}
           <div className="header">Our Team</div>
           <div className="round-img">
