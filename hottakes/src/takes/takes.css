@@ -1,3 +1,6 @@
+.pad {
+  padding-top: 10%;
+}
 .rounded-box {
   display: inline-flex;
   padding: 16px 16px 16px 24px;
@@ -7,4 +10,53 @@
   border-radius: 100px;
   border: 4px solid var(--neutral-6-d-6-d-6-d, #6d6d6d);
   background: var(--v-2-cod-gray, #1b1b1b);
+}
+.round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48.38px;
+  height: 48.38px;
+  border-radius: 100px;
+  border: 4px solid var(--neutral-6-d-6-d-6-d, #6d6d6d);
+  background: var(--v-2-cod-gray, #1b1b1b);
+}
+
+/* You might need to adjust the specific icon styles */
+.PiForkKnifeFill,
+.LuFerrisWheel,
+.BiSolidDrink {
+  width: 29px;
+  height: 29px;
+}
+.loc-style {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+}
+.button-item.active {
+  border: 4px solid;
+  border-radius: 100px;
+  background: var(--v-2-cod-gray, #1b1b1b);
+  border-image-slice: 1;
+  border-width: 5px;
+  border-radius: 100px;
+  border-image-source: linear-gradient(to right, #ff4291, #b0bdff);
+}
+
+/* takes.css */
+/* Add or modify the button styles to make the background transparent */
+.button-item button {
+  background-color: transparent; /* Sets the background of buttons to transparent */
+  border: none; /* Remove border if needed */
+  color: white;
+
+  /* Additional styles as needed */
+}
+.IoMdPlayCircle {
+  background-color: white;
 }
