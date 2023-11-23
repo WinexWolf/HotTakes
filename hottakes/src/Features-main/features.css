@@ -43,14 +43,14 @@ ul {
   font-family: Inter;
   font-size: 25px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 150%; /* 37.5px */
   padding-right: 164px;
 }
 .desc2 {
   color: var(--neutral-b-6-b-6-b-6, var(--v-2-nobel, #b6b6b6));
   font-family: Inter;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 130%; /* 20.8px */
