@@ -56,7 +56,7 @@ const Body = () => {
             <h1 className="grad">Hot Takes </h1>
             <h1>
               Discover the <br />
-              hottest trending spots
+              hottest spots
             </h1>
           </div>{" "}
           <div className="full snap-item" ref={textRefs[1]}>
