@@ -60,8 +60,8 @@ function Navbar() {
       <a class="active" href="/">
         <img src={logo} alt=""></img>
       </a>
-      <a href="#Features">Features</a>
-      <a href="#place-curators">Place Curators</a>
+      {/* <a href="#Features">Features</a>
+      <a href="#place-curators">Place Curators</a> */}
       <a href="/community-guidelines">Community Guidelines</a>
       <a href="/about">About</a>
     </div>
