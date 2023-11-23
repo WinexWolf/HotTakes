@@ -39,7 +39,7 @@ const About = () => {
               <div className="title1">Engineer</div>
               <div className="desc">
                 Ex-Twitch Software Engineer, past executive director of large
-                hackathons, full stack and geolocation data experience.
+                hackathons, full stack and geolocation experience.
               </div>
             </div>
             <div className="column">
