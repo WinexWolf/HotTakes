@@ -9,11 +9,11 @@
     "react-icons": "^4.12.0",
     "react-intersection-observer": "^9.5.3",
     "react-parallax": "^3.5.1",
-    "react-router-dom": "^6.19.0",
     "react-scroll-motion": "^0.3.2",
     "styled-components": "^6.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.12"
+    "@babel/core": "^7.16.12",
+    "react-router-dom": "^6.20.0"
   }
 }

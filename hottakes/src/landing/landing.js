@@ -17,7 +17,9 @@ const Landing = () => {
         <br />
         <div className="img-app-store">
           {" "}
-          <img src={appstore} alt=""></img>
+          <a href="https://apps.apple.com/us/app/hot-takes-social-map-reviews/id6446862951">
+            <img src={appstore} alt=""></img>
+          </a>
         </div>
       </div>
       <div className="column image-land">
