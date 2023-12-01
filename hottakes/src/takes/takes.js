@@ -48,9 +48,8 @@ const Takes = () => {
             <div className="loc-style">Fini Pizza</div>
 
             <button
-              onClick={() => handleAudioPlay(img1, andrewAudio, "Fini Pizza")}
+              onClick={() => handleAudioPlay(img3, yeunjaeAudio, "Fini Pizza")}
             >
-              Play
               <IoMdPlayCircle />
             </button>
           </div>
@@ -58,18 +57,19 @@ const Takes = () => {
 
           <div
             className={`button-item ${
-              activeButton === "Grand Leaners" ? "active" : ""
+              activeButton === "Greenlight" ? "active" : ""
             }`}
           >
             <div className="round">
               <LuFerrisWheel />
             </div>
-            <div className="loc-style">Grand Leaners</div>
+            <div className="loc-style">Greenlight Bookstore</div>
 
             <button
-              onClick={() => handleAudioPlay(img2, marieAudio, "Grand Leaners")}
+              onClick={() =>
+                handleAudioPlay(img2, marieAudio, "Greenlight Bookstore")
+              }
             >
-              Play
               <IoMdPlayCircle />
             </button>
           </div>
@@ -86,9 +86,8 @@ const Takes = () => {
             <div className="loc-style">Hell Phone</div>
 
             <button
-              onClick={() => handleAudioPlay(img3, yeunjaeAudio, "Hell Phone")}
+              onClick={() => handleAudioPlay(img1, andrewAudio, "Hell Phone")}
             >
-              Play
               <IoMdPlayCircle />
             </button>
           </div>
