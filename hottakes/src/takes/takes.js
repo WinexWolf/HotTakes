@@ -57,7 +57,7 @@ const Takes = () => {
 
           <div
             className={`button-item ${
-              activeButton === "Greenlight" ? "active" : ""
+              activeButton === "Greenlight Bookstore" ? "active" : ""
             }`}
           >
             <div className="round">
