@@ -37,7 +37,7 @@
   font-weight: 700;
   line-height: normal;
   display: flex;
-  align-items: left;
+  text-align: left;
 }
 .button-item.active {
   border: 4px solid;
@@ -63,4 +63,7 @@
   font-size: 128;
   width: 128;
   height: 128;
+  text-align: left;
+
+  align-self: start;
 }
